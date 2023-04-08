@@ -17,7 +17,7 @@ function FavoriteMovie(){
         <>
             <label htmlFor='movie'>Favorite Movie:</label>
             <input onChange={handleChange}  value={movieTitle} id='movie'/>
-            <p>{movieTitle ? movieTitle : "please enter you're favorite movie"}</p>
+            <p>{movieTitle ? movieTitle : "please enter your favorite movie"}</p>
         </>
     )
 }
