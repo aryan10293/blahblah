@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <h1>Trying to create a movie review app</h1>
-      <Title />
       <FavoriteMovie />
+      <Title />
     </>
   )
 }
