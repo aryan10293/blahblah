@@ -12,7 +12,7 @@ function Title(){
                     <div className="card-body">
                         <h2 className="card-title">{props.title}</h2>
                         <p className="card-text">{props.description}</p>
-                        <a href="#" className="btn btn-primary">Leave review</a>
+                        <button className="btn btn-primary">Leave review</button>
                         {/* <a href="#" className="btn btn-primary">Up vote</a>
                         <a href="#" className="btn btn-primary">Down Vote</a> */}
                     </div>
